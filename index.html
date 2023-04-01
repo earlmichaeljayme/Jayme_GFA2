@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <div class="ctitle">
+            <h1 class="title">Calculator</h1>
+        </div>
+        <div class="cinstrc">
+            <p class="instrc">Input any two numbers and press a button to see the results!</p>  
+        </div>
+        <div class="cinput">
+            <input type="number" step="any" id="num1">
+            <input type="number" step="any" id="num2">
+        </div>
+        <div class="cbuttons">
+            <button class="operators" onclick="cplus();">+</button>
+            <button class="operators" onclick="cminus();">-</button>
+            <button class="operators" onclick="cmultiply();">×</button>
+            <button class="operators" onclick="cdivide();">÷</button>
+            <button class="operators" onclick="cmodulus();">%</button>
+        </div>
+        <div class="cresults">
+            <p id="results">Results will be displayed here. </p>
+        </div>
+    </div>
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
